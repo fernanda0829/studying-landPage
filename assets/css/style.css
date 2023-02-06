@@ -10,12 +10,12 @@ body {
   display: flex;
 }
 
-#main .content {
+#content {
   width: 700px;
   background-color: #c6c6c6;
 }
 
-#main .content h3 {
+#content h3 {
   color: #1e0e62;
   font-size: 42px;
   line-height: 52px;
@@ -33,7 +33,7 @@ body {
   color: rgba(21, 20, 57, 0.4);
 }
 
-#main .content article {
+#content article {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
@@ -41,7 +41,7 @@ body {
   margin-bottom: 35px;
 }
 
-#main .content h5 {
+#content h5 {
   color: #1e0e62;
   font-size: 22px;
   line-height: 32px;
@@ -49,43 +49,45 @@ body {
   margin-bottom: 12px;
 }
 
-#main .content p {
+#content p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   color: rgba(21, 20, 57, 0.4);
 }
 
-.content .photo-content p {
+#content .photo-content p {
   margin-bottom: 30px;
 }
 
-#main .photo-content img {
+#content .photo-content img {
   margin-top: 50px;
   margin-bottom: 25px;
 }
 
-#main .last-seen {
+#sidebar {
   margin-left: 100px;
   width: 378px;
   background-color: #d8d8d8;
 }
 
-#main .last-seen #label {
+#sidebar #label {
   margin-bottom: 20px;
 }
 
-#main .last-seen .list {
+#sidebar .list {
   display: flex;
   margin-bottom: 30px;
+  width: 370px;
+  height: 110px;
 }
 
-#main .list .photo-sidebar {
+#sidebar .last-seen img {
   width: 170px;
   height: 105px;
 }
 
-#main .list p {
+#sidebar .list p {
   margin-left: 20px;
   font-size: 16px;
   line-height: 26px;
@@ -93,7 +95,48 @@ body {
   color: #1e0e62;
 }
 
-#main .list p:last-child {
+#sidebar .list p:last-child {
   color: rgba(21, 20, 57, 0.4);
   margin-top: 4px;
+}
+
+#sidebar .newsletter {
+  width: 370px;
+  height: 186px;
+  border: 2px solid #ebeaed;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+#sidebar .newsletter article {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #1e0e62;
+}
+
+#sidebar .newsletter p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(21, 20, 57, 0.4);
+  margin-bottom: 20px;
+}
+
+#sidebar .content-form {
+  display: flex;
+}
+
+#sidebar form {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+#sidebar button {
+  background-color: #25dac5;
+  border-radius: 100px;
+  padding: 12px 18px;
 }
