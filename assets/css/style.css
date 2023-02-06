@@ -7,10 +7,12 @@ body {
 #main {
   max-width: 1178px;
   background-color: #f1f1f1;
+  display: flex;
 }
 
 #main .content {
   width: 700px;
+  background-color: #c6c6c6;
 }
 
 #main .content h3 {
@@ -20,6 +22,15 @@ body {
   font-weight: 700;
   letter-spacing: -0.4px;
   margin-bottom: 12px;
+}
+
+#main #label {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgba(21, 20, 57, 0.4);
 }
 
 #main .content article {
@@ -43,4 +54,46 @@ body {
   line-height: 26px;
   font-weight: 400;
   color: rgba(21, 20, 57, 0.4);
+}
+
+.content .photo-content p {
+  margin-bottom: 30px;
+}
+
+#main .photo-content img {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#main .last-seen {
+  margin-left: 100px;
+  width: 378px;
+  background-color: #d8d8d8;
+}
+
+#main .last-seen #label {
+  margin-bottom: 20px;
+}
+
+#main .last-seen .list {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#main .list .photo-sidebar {
+  width: 170px;
+  height: 105px;
+}
+
+#main .list p {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #1e0e62;
+}
+
+#main .list p:last-child {
+  color: rgba(21, 20, 57, 0.4);
+  margin-top: 4px;
 }
