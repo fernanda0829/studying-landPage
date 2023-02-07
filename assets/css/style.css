@@ -6,13 +6,11 @@ body {
 
 #main {
   max-width: 1178px;
-  background-color: #f1f1f1;
   display: flex;
 }
 
 #content {
   width: 700px;
-  background-color: #c6c6c6;
 }
 
 #content h3 {
@@ -68,7 +66,6 @@ body {
 sidebar {
   margin-left: 100px;
   width: 378px;
-  background-color: #d8d8d8;
 }
 
 sidebar #label {
@@ -160,7 +157,7 @@ sidebar .most-popular button {
   color: #fff;
   background-color: #e93a7d;
   border-radius: 100px;
-  padding: 7px 20px 7px 20px;
+  padding: 5px;
   width: 130px;
   height: 40px;
   font-size: 18px;
