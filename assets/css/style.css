@@ -65,29 +65,29 @@ body {
   margin-bottom: 25px;
 }
 
-#sidebar {
+sidebar {
   margin-left: 100px;
   width: 378px;
   background-color: #d8d8d8;
 }
 
-#sidebar #label {
+sidebar #label {
   margin-bottom: 20px;
 }
 
-#sidebar .list {
+sidebar .list {
   display: flex;
   margin-bottom: 30px;
   width: 370px;
   height: 110px;
 }
 
-#sidebar .last-seen img {
+sidebar .last-seen img {
   width: 170px;
   height: 105px;
 }
 
-#sidebar .list p {
+sidebar .list p {
   margin-left: 20px;
   font-size: 16px;
   line-height: 26px;
@@ -95,28 +95,29 @@ body {
   color: #1e0e62;
 }
 
-#sidebar .list p:last-child {
+sidebar .list p:last-child {
   color: rgba(21, 20, 57, 0.4);
   margin-top: 4px;
 }
 
-#sidebar .newsletter {
+sidebar .newsletter {
   width: 370px;
   height: 186px;
   border: 2px solid #ebeaed;
   border-radius: 10px;
   box-sizing: border-box;
   padding: 30px;
+  margin: 50px 0;
 }
 
-#sidebar .newsletter article {
+sidebar .newsletter article {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
   color: #1e0e62;
 }
 
-#sidebar .content-form legend {
+sidebar .content-form legend {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -124,11 +125,11 @@ body {
   margin-bottom: 20px;
 }
 
-#sidebar .content-form {
+sidebar .content-form {
   display: flex;
 }
 
-#sidebar .content-form #email {
+sidebar .content-form #email {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
@@ -141,7 +142,7 @@ body {
   border-radius: 100px;
 }
 
-#sidebar .content-form #button {
+sidebar .content-form #button {
   border-radius: 100px;
   background-color: #25dac5;
   color: #fff;
@@ -151,4 +152,20 @@ body {
   font-weight: 500;
   width: 80px;
   height: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+sidebar .most-popular button {
+  color: #fff;
+  background-color: #e93a7d;
+  border-radius: 100px;
+  padding: 7px 20px 7px 20px;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
 }
