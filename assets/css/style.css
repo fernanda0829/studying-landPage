@@ -116,7 +116,7 @@ body {
   color: #1e0e62;
 }
 
-#sidebar .newsletter p {
+#sidebar .content-form legend {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -128,15 +128,27 @@ body {
   display: flex;
 }
 
-#sidebar form {
+#sidebar .content-form #email {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
   color: rgba(21, 20, 57, 0.4);
+  padding: 12px 108px 12px 24px;
+  width: 220px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ebeaed;
+  border-radius: 100px;
 }
 
-#sidebar button {
-  background-color: #25dac5;
+#sidebar .content-form #button {
   border-radius: 100px;
-  padding: 12px 18px;
+  background-color: #25dac5;
+  color: #fff;
+  padding: 12px 18px 12px 18px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  width: 80px;
+  height: 50px;
 }
