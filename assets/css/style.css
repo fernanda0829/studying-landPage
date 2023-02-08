@@ -1,10 +1,12 @@
 body {
   font-family: "DM Sans", sans-serif;
+  /* Margin não, padding e coloca apenas acima e abaixo, não dos lados pois tu tem que centralizar o main e não centralizar com bordas */
   margin: 90px 115px 140px 115px;
   background-color: #fff;
 }
 
 #main {
+  /* centralizar a div, referindo ao comentario acima. */
   max-width: 1178px;
   display: flex;
 }
@@ -22,6 +24,7 @@ body {
   margin-bottom: 12px;
 }
 
+/* Aqui algo que comentei la no html sobre o id label. */
 #main #label {
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -68,6 +71,7 @@ sidebar {
   width: 378px;
 }
 
+/* Aqui algo que comentei la no html sobre o id label. */
 sidebar #label {
   margin-bottom: 20px;
 }
@@ -107,6 +111,7 @@ sidebar .newsletter {
   margin: 50px 0;
 }
 
+/* Aqui algo que comentei la no html sobre o article. */
 sidebar .newsletter article {
   font-size: 18px;
   line-height: 28px;
@@ -126,6 +131,7 @@ sidebar .content-form {
   display: flex;
 }
 
+/* Aqui algo que comentei la no html sobre o id. */
 sidebar .content-form #email {
   font-size: 18px;
   line-height: 28px;
@@ -139,6 +145,7 @@ sidebar .content-form #email {
   border-radius: 100px;
 }
 
+/* Aqui algo que comentei la no html sobre o id, sobre o hover e o cursor pointer. */
 sidebar .content-form #button {
   border-radius: 100px;
   background-color: #25dac5;
@@ -154,6 +161,7 @@ sidebar .content-form #button {
   border: none;
 }
 
+/* Aqui algo que comentei la no html sobre o hover e o cursor pointer. */
 sidebar .most-popular button {
   color: #fff;
   background-color: #e93a7d;
