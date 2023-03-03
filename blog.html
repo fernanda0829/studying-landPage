@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- lang en? se teu site for em Ingles pode deixar. Lang sempre pt-br pois teu site é em portugues -->
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LandingPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+  </head>
+  <body>
+    <!-- O layout em si ficou muito bom, tudo exatamente como está no figma. -->
+    <main id="main">
+      <section id="content">
+        <!-- Aqui tu poderia ter uma div para ser o cabeçalho da noticia, apenas para separação mais clara do que é o que -->
+        <!-- Aqui é o titulo principal da pagina, então um h1 iria bem, tem que ter 1 h1 por pagina, não pode faltar isso. -->
+        <div class="content-header">
+          <h1>
+            To these in the morning I sent the lead who was to enter the hole
+          </h1>
+          <p class="label">20 December</p>
+          <article>
+            This sounded nonsense to Alice, so she said nothing, but set off at
+            once toward the Red Queen. To her surprise, she lost sight of her in
+            a moment, and found herself walking in at the front-door again.
+          </article>
+          <article>
+            For some minutes Alice stood without speaking, looking out in all
+            directions over the country - and a most curious country it was.
+          </article>
+        </div>
+        <!-- Fechando Aqui -->
+        <!-- Aqui tu poderia ter uma div para ser o conteúdo da noticia, apenas para separação mais clara do que é o que -->
+        <div class="content-body">
+          <h5>Perfect for Your</h5>
+          <p>
+            The method is this: in an acre of ground you bury, at six inches
+            distance and eight deep, a quantity of acorns, dates, chestnuts, and
+            other mast or vegetables, whereof these animals are fondest then you
+            drive.
+          </p>
+          <div class="content-photo">
+            <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+            <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+            <div class="content-photo-img">
+              <img src="assets/img/png/content/photoContent.png" alt="" />
+            </div>
+            <p>photo by Denis</p>
+          </div>
+          <p>
+            The tattered remains of a checked curtain were drawn round the bed's
+            head, to exclude the wind, which, however, made its way into the
+            comfortless room through the numerous chinks in the door.
+          </p>
+          <div class="content-photo">
+            <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+            <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+            <div class="content-photo-img">
+              <img src="assets/img/png/content/photoContent01.png" alt="" />
+            </div>
+            <p>photo by Denis</p>
+          </div>
+          <p>
+            When the last 'natural' had been declared, and the profit and loss
+            account of fish and sixpences adjusted, to the satisfaction of all
+            parties, Mr. Bob Sawyer rang for supper, and the visitors squeezed.
+          </p>
+        </div>
+        <!-- Fechando Aqui -->
+      </section>
+      <sidebar>
+        <!-- Isso poderia ser um ID, pois é uma seção ÚNICA.  -->
+        <section id="last-seen">
+          <!-- isso está errado, não se repete ID, ela é única e tu está usando duas vezes, nesse caso se usa classe. -->
+          <p class="label">Last Seen</p>
+          <!-- Aqui, da para ser assim, mas está estranho, ideal é ter uma list (ul) chamada list por exemplo e dentro dela cada um desses "list" que tu colocou ser uma (li) por exemplo list-item, como foi feito está dificil entender que tudo faz parte da mesma lista -->
+          <ul class="list">
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <a class="list-item-link" href="">
+                <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+                <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarLastSeen/photo01.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>To these in the morning I sent the lead who was to...</p>
+                  <p>19 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <a class="list-item-link" href="">
+                <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+                <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarLastSeen/photo02.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>
+                    When the last 'natural' had been declared, and the profit...
+                  </p>
+                  <p>13 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarLastSeen/photo03.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>Sam's attention that, when this person dismounted…</p>
+                  <p>21 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarLastSeen/photo04.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>To these in the morning I sent the lead who was ...</p>
+                  <p>10 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarLastSeen/photo05.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>
+                    The tattered remains of a checked curtain were drawn
+                    round...
+                  </p>
+                  <p>12 December</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- Isso poderia ser um ID, pois é uma seção ÚNICA.  -->
+        <section id="newsletter">
+          <!-- Isso é um titulo, não um artigo. -->
+          <h2>Newsletter</h2>
+          <div class="content-form">
+            <form action="">
+              <legend>Get our news earlier, let`s get in touch.</legend>
+              <!-- ID email é mt genérico, id tem que ser unico, algo como email-newsletter -->
+              <input
+                type="email"
+                id="email-newsletter"
+                placeholder="Your email"
+              />
+              <!-- Faltou um cursor pointer e um hover nesse botão -->
+              <!-- ID button é mt genérico, id tem que ser unico, algo como btn-newsletter -->
+              <input id="btn-newsletter" type="submit" value="Send" />
+            </form>
+          </div>
+        </section>
+        <!-- Isso poderia ser um ID, pois é uma seção ÚNICA.  -->
+        <section id="most-popular">
+          <!-- Isso está errado, não se repete ID, ela é única e tu está usando duas vezes, nesse caso se usa classe. -->
+          <p class="label">Most Popular</p>
+          <!-- Aqui, da para ser assim, mas está estranho, ideal é ter uma list (ul) chamada list por exemplo e dentro dela cada um desses "list" que tu colocou ser uma (li) por exemplo list-item, como foi feito está dificil entender que tudo faz parte da mesma lista -->
+          <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+          <ul class="list">
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarMostPopular/Photo01.png "
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>
+                    However, I travelled along the shore of the sea towards the…
+                  </p>
+                  <p>14 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarMostPopular/Photo02.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>Sam's attention that, when this person dismounted…</p>
+                  <p>21 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarMostPopular/Photo03.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>
+                    As we passed, I remarked a beautiful church-spire rising…
+                  </p>
+                  <p>18 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarMostPopular/Photo04.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>Lady Crawley, and mother of the young ladies. she was…</p>
+                  <p>18 December</p>
+                </div>
+              </a>
+            </li>
+            <!-- Cada um desses items deveria ter um link que iria para outra noticia, ou seja, li (list-item) e dentro um link que engloba tudo. -->
+            <li class="list-item">
+              <!-- Essa img deveria estar dentro de uma div, senão quando tu quiser arredondar as bordas no css isso não vai funcionar. -->
+              <!-- Aqui não se coloca / pra começar estava /assets e não somente assets, senão tem computadores como o meu que não abrem o caminho correto -->
+              <a class="list-item-link" href="">
+                <div class="list-item-img">
+                  <img
+                    src="assets/img/png/sidebarMostPopular/Photo05.png"
+                    alt=""
+                  />
+                </div>
+                <div class="list-item-text">
+                  <p>This I have produced as a scantling of Jack`s great...</p>
+                  <p>15 December</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- Faltou um cursor pointer e um hover nesse botão -->
+          <button>Load More</button>
+        </section>
+      </sidebar>
+    </main>
+  </body>
+</html>

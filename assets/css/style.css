@@ -1,197 +1,60 @@
 body {
   font-family: "DM Sans", sans-serif;
-  /* Margin não, padding e coloca apenas acima e abaixo, não dos lados pois tu tem que centralizar o main e não centralizar com bordas */
-  padding: 90px 0px 140px 0px;
   background-color: #fff;
-}
-
-#main {
-  /* centralizar a div, referindo ao comentario acima. */
-  max-width: 1178px;
-  display: flex;
   margin: 0 auto;
 }
 
-#content {
-  width: 700px;
+.introduction {
+  width: 100%;
+  height: 643px;
+  background-color: #1e0e62;
 }
 
-.content-header h1 {
-  color: #1e0e62;
-  font-size: 42px;
-  line-height: 52px;
-  font-weight: 700;
-  letter-spacing: -0.4px;
-  margin-bottom: 12px;
+.content-introduction {
+  padding: 100px 315px 96px 315px;
 }
 
-/* Aqui algo que comentei la no html sobre o id label. */
-#main .label {
-  text-transform: uppercase;
-  margin-bottom: 30px;
+.content-introduction h1 {
+  font-size: 58px;
+  line-height: 70px;
   font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.content-introduction h3 {
   font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
   letter-spacing: 2px;
-  color: rgba(21, 20, 57, 0.4);
+  text-transform: uppercase;
+  color: #fff;
 }
 
-#content .content-header article {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 500;
-  color: #1e0e62;
-  margin-bottom: 35px;
-}
-
-#content .content-body h5 {
-  color: #1e0e62;
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 500;
-  margin-bottom: 12px;
-}
-
-#content .content-body p {
+.content-introductiono p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  color: rgba(21, 20, 57, 0.4);
+  color: #fff;
+  opacity: 0.7;
 }
 
-#content .content-body .content-photo p {
-  margin-bottom: 30px;
-}
-
-#content .content-body .content-photo-img {
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
-
-sidebar {
-  margin-left: 100px;
-  width: 378px;
-}
-
-/* Aqui algo que comentei la no html sobre o id label. */
-sidebar .label {
-  margin-bottom: 20px;
-}
-
-sidebar .list {
-  width: 370px;
-}
-
-sidebar .list-item {
-  margin-bottom: 30px;
-  height: 110px;
-}
-
-sidebar .list-item-link {
+.content-user {
   display: flex;
+  margin-top: 157px;
 }
 
-sidebar .list-item-img {
-  width: 170px;
-}
-
-sidebar .list-item-text {
+.content-user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 25px;
   flex: 1;
-  margin-left: 20px;
 }
 
-sidebar .list p {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  color: #1e0e62;
-}
+.content-user-description {
+  text-align: left;
 
-sidebar .list p:last-child {
-  color: rgba(21, 20, 57, 0.4);
-  margin-top: 4px;
-}
-
-sidebar #newsletter {
-  width: 370px;
-  height: 186px;
-  border: 2px solid #ebeaed;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 30px;
-  margin: 50px 0;
-}
-
-/* Aqui algo que comentei la no html sobre o article. */
-sidebar #newsletter h2 {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 500;
-  color: #1e0e62;
-}
-
-sidebar #newsletter .content-form legend {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  color: rgba(21, 20, 57, 0.4);
-  margin-bottom: 20px;
-}
-
-sidebar #newsletter .content-form {
-  display: flex;
-}
-
-/* Aqui algo que comentei la no html sobre o id. */
-sidebar #newsletter .content-form #email-newsletter {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 500;
-  color: rgba(21, 20, 57, 0.4);
-  padding: 12px 108px 12px 24px;
-  width: 220px;
-  height: 50px;
-  box-sizing: border-box;
-  border: 2px solid #ebeaed;
-  border-radius: 100px;
-}
-
-/* Aqui algo que comentei la no html sobre o id, sobre o hover e o cursor pointer. */
-sidebar #newsletter .content-form #btn-newsletter {
-  border-radius: 100px;
-  background-color: #25dac5;
-  color: #fff;
-  padding: 12px 18px 12px 18px;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  width: 80px;
-  height: 50px;
-  align-items: center;
-  text-align: center;
-  border: none;
-}
-
-sidebar #newsletter .content-form #btn-newsletter:hover {
-  background-color: #e93a7d;
-}
-
-/* Aqui algo que comentei la no html sobre o hover e o cursor pointer. */
-sidebar #most-popular button {
-  color: #fff;
-  background-color: #25dac5;
-  border-radius: 100px;
-  padding: 5px;
-  width: 130px;
-  height: 40px;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  text-align: center;
-  align-items: center;
-  border: none;
-  cursor: pointer;
-}
-
-sidebar #most-popular button:hover {
-  background-color: #e93a7d;
+  margin-right: 382px;
 }
