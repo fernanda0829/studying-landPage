@@ -52,3 +52,32 @@ body {
   border-radius: 50px;
   margin-right: 25px;
 }
+
+.icons a {
+  font-size: 18px;
+  line-height: 38px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#main {
+  padding-bottom: 130px;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+#main h2 {
+  color: #1e0e62;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin: 70px 0 25px;
+}
+
+#main p {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
